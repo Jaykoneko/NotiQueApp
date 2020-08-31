@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/mobile_navigation" app:startDestination="@+id/nav_home">
+    <fragment android:label="Noticias" android:name="com.ut.notique.ui.home.HomeFragment" android:id="@+id/nav_home">
+        <action android:id="@+id/action_HomeFragment_to_HomeSecondFragment" app:destination="@+id/nav_home_second"/>
+    </fragment>
+    <fragment android:label="Carreras" android:name="com.ut.notique.ui.gallery.GalleryFragment" android:id="@+id/nav_gallery"/>
+    <fragment android:label="Becas" android:name="com.ut.notique.ui.slideshow.SlideshowFragment" android:id="@+id/nav_slideshow"/>
+    <fragment android:label="Memes" android:name="com.ut.notique.ui.memes.MemesFragment" android:id="@+id/nav_memes"/>
+    <fragment android:label="Calendario" android:name="com.ut.notique.ui.calendario.CalendarioFragment" android:id="@+id/nav_calendario"/>
+</navigation>

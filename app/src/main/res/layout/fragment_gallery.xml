@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:scrollbarAlwaysDrawVerticalTrack="true" android:layout_gravity="center" android:background="#565151" android:layout_width="match_parent" android:layout_height="match_parent" android:id="@+id/ScrollG">
+    <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TableRow android:gravity="center_horizontal">
+            <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.Light" android:id="@+id/Ccard" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+                <LinearLayout android:orientation="vertical" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/Cimgc1" android:background="#565151" android:layout_width="match_parent" android:layout_height="194dp" android:src="@drawable/cargando" android:scaleType="centerCrop" android:contentDescription="Una imagen"/>
+                    <LinearLayout android:orientation="vertical" android:background="#565151" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?attr/textAppearanceHeadline6" android:textColor="#6ee873" android:id="@+id/CtxtT1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="#6ee873" android:id="@+id/CtxtSt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="@color/colorAccent" android:id="@+id/CtxtR1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Cargando..."/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#565151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+                        <com.google.android.material.button.MaterialButton android:background="#565151" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Soy un botón :v" android:layout_marginEnd="8dp" style="?attr/borderlessButtonStyle"/>
+                        <com.google.android.material.button.MaterialButton android:textColor="#73e478" android:id="@+id/CbtnC1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..." app:iconTint="#6bfd72" style="?attr/borderlessButtonStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+        <TableRow android:gravity="center" android:background="#565151">
+            <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.Light" android:layout_gravity="center_horizontal" android:id="@+id/Ccard2" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+                <LinearLayout android:orientation="vertical" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/Cimgc2" android:background="#565151" android:layout_width="match_parent" android:layout_height="194dp" android:scaleType="centerCrop" android:contentDescription="Una imagen" app:srcCompat="@drawable/cargando"/>
+                    <LinearLayout android:orientation="vertical" android:background="#565151" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?attr/textAppearanceHeadline6" android:textColor="#6ee873" android:id="@+id/CtxtT2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="#6ee873" android:id="@+id/CtxtSt2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="@color/colorAccent" android:id="@+id/CtxtR2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Cargando..."/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#565151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+                        <com.google.android.material.button.MaterialButton android:background="#565151" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Soy un botón :v" android:layout_marginEnd="8dp" style="?attr/borderlessButtonStyle"/>
+                        <com.google.android.material.button.MaterialButton android:textColor="#73e478" android:id="@+id/CbtnC2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..." app:iconTint="#6bfd72" style="?attr/borderlessButtonStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+        <TableRow android:gravity="center" android:background="#565151">
+            <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.Light" android:layout_gravity="center_horizontal" android:id="@+id/Ccard3" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+                <LinearLayout android:orientation="vertical" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/Cimgc3" android:background="#565151" android:layout_width="match_parent" android:layout_height="194dp" android:scaleType="centerCrop" android:contentDescription="Una imagen" app:srcCompat="@drawable/cargando"/>
+                    <LinearLayout android:orientation="vertical" android:background="#565151" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?attr/textAppearanceHeadline6" android:textColor="#6ee873" android:id="@+id/CtxtT3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="#6ee873" android:id="@+id/CtxtSt3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="@color/colorAccent" android:id="@+id/CtxtR3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Cargando..."/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#565151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+                        <com.google.android.material.button.MaterialButton android:background="#565151" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Soy un botón :v" android:layout_marginEnd="8dp" style="?attr/borderlessButtonStyle"/>
+                        <com.google.android.material.button.MaterialButton android:textColor="#73e478" android:id="@+id/CbtnC3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..." app:iconTint="#6bfd72" style="?attr/borderlessButtonStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+        <TableRow android:gravity="center" android:background="#565151">
+            <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.Light" android:id="@+id/Ccard4" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+                <LinearLayout android:orientation="vertical" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/Cimgc4" android:background="#565151" android:layout_width="match_parent" android:layout_height="194dp" android:scaleType="centerCrop" android:contentDescription="Una imagen" app:srcCompat="@drawable/cargando"/>
+                    <LinearLayout android:orientation="vertical" android:background="#565151" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?attr/textAppearanceHeadline6" android:textColor="#6ee873" android:id="@+id/CtxtT4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="#6ee873" android:id="@+id/CtxtSt4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="@color/colorAccent" android:id="@+id/CtxtR4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Cargando..."/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#565151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+                        <com.google.android.material.button.MaterialButton android:background="#565151" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Soy un botón :v" android:layout_marginEnd="8dp" style="?attr/borderlessButtonStyle"/>
+                        <com.google.android.material.button.MaterialButton android:textColor="#73e478" android:id="@+id/CbtnC4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..." app:iconTint="#6bfd72" style="?attr/borderlessButtonStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <com.google.android.material.card.MaterialCardView android:theme="@style/Theme.MaterialComponents.Light" android:id="@+id/Ccard5" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="8dp">
+                <LinearLayout android:orientation="vertical" android:background="#565151" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/Cimgc5" android:background="#565151" android:layout_width="match_parent" android:layout_height="194dp" android:scaleType="centerCrop" android:contentDescription="Una imagen" app:srcCompat="@drawable/cargando"/>
+                    <LinearLayout android:orientation="vertical" android:background="#565151" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textAppearance="?attr/textAppearanceHeadline6" android:textColor="#6ee873" android:id="@+id/CtxtT5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="#6ee873" android:id="@+id/CtxtSt5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="Cargando..."/>
+                        <TextView android:textAppearance="?attr/textAppearanceBody2" android:textColor="@color/colorAccent" android:id="@+id/CtxtR5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Cargando..."/>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:background="#565151" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="8dp">
+                        <com.google.android.material.button.MaterialButton android:background="#565151" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Soy un botón :v" android:layout_marginEnd="8dp" style="?attr/borderlessButtonStyle"/>
+                        <com.google.android.material.button.MaterialButton android:textColor="#73e478" android:id="@+id/CbtnC5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cargando..." app:iconTint="#6bfd72" style="?attr/borderlessButtonStyle"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </TableRow>
+        <TableRow android:gravity="center">
+            <ImageButton android:layout_gravity="center" android:id="@+id/CbtnAtr" android:background="@drawable/left" android:visibility="gone"/>
+        </TableRow>
+        <TableRow android:gravity="center" android:layout_marginTop="10dp">
+            <ImageButton android:layout_gravity="center" android:id="@+id/CbtnAd" android:background="@drawable/rigth"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
